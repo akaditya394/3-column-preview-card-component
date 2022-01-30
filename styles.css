@@ -1,5 +1,38 @@
-body{
-    margin:0;
-    padding:0;
-    background:hsl(0, 0%, 95%);
+body {
+  margin: 0;
+  padding: 0;
+  background: hsl(0, 0%, 95%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox-container {
+  display: flex;
+  margin-top: 8rem;
+  flex-wrap: wrap;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  
+}
+
+.flexbox-item-a {
+  height: 400px;
+  width: 250px;
+  background-color: green;
+}
+
+.flexbox-item-b {
+  height: 400px;
+  width: 250px;
+  background-color: yellow;
+}
+
+.flexbox-item-c {
+  height: 400px;
+  width: 250px;
+  background-color: blue;
 }
