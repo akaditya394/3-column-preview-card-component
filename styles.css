@@ -117,3 +117,23 @@ button {
   cursor: pointer;
   border: 2px solid white;
 }
+
+@media (max-device-width: 550px) {
+  .flexbox-item-a {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .flexbox-item-c {
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+@media (max-device-width: 825px) and (min-device-width: 550px) {
+  .flexbox-item-b {
+    border-radius: 0 10px 10px 0;
+  }
+
+  .flexbox-item-c {
+    border-radius: 0 0 10px 10px;
+  }
+}
